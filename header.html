@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<!--<link rel="stylesheet" type="text/css" href="css/common.css"/>-->
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<!--<script src="js/jquery-1.12.4.min.js"></script>-->
+		<script src="js/move.js"></script>
+		<script>
+			$(function(){
+				$(".nav>.i>li").hover(function(){
+					$(this).find(".ii").slideDown(700,"elasticOut")
+				},function(){
+					$(this).find(".ii").slideUp()
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<!-- header begin -->
+		<div class="header">
+			<div class="container">
+				<div class="logo fl"><img src="images/logo.png"/></div>
+				<div class="nav fr">
+					<ul class="i">
+						<li><a href="#">首页</a></li>
+						<li>
+							<a href="#">超人学院</a>
+							<i></i>
+							<ul class="ii">
+								<li><a href="#">主页</a></li>
+								<li><a href="#">概述</a></li>
+								<li><a href="#">价值</a></li>
+								<li><a href="#">掌云</a></li>
+								<li><a href="#">联盟</a></li>
+								<li><a href="#">下载</a></li>
+							</ul>
+						</li>
+						<li><a href="#">最新动态</a></li>
+						<li>
+							<a href="#">企业文化</a>
+							<i></i>
+							<ul class="ii">
+								<li><a href="#">企业理念</a></li>
+								<li><a href="#">企业文化</a></li>
+								<li><a href="#">企业氛围</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">人力资源</a>
+							<i></i>
+							<ul class="ii">
+								<li><a href="#">人才理念</a></li>
+								<li><a href="#">团队介绍</a></li>
+								<li><a href="#">招贤纳士</a></li>
+							</ul>
+						</li>
+						<li><a href="#">联系我们</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- header end -->
+	</body>
+</html>

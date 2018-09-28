@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/meherd.css"/>
+		<script src="js/jquery-1.12.4.js"></script>
+		<script src="js/move.js"></script>
+		<script>
+			$(function(){
+				$(".top>.i>li").hover(function(){
+					$(this).find(".ii").stop().slideDown(700,"elasticOut")
+				},function(){
+					$(this).find(".ii").stop().slideUp()
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div class="box">
+			<div class="top">
+				<img src="img/logo (1).png" alt="" />
+				<ul class="i">
+						<li><a href="top.html">主页</a></li>
+						<li>
+							<a href="#">游戏资料</a>
+							<i></i>
+							<ul class="ii">
+								<li><a href="noe.html#00">首页</a></li>
+								<li><a href="noe.html#01">极致体验</a></li>
+								<li><a href="noe.html#02">特色系统</a></li>
+								<li><a href="noe.html#03">游戏模式</a></li>
+								<li><a href="noe.html#04">车辆展示</a></li>
+								<li><a href="noe.html#05">赛道展示</a></li>
+							</ul>
+						</li>
+						<li><a href="main.html">游戏发展</a></li>
+						<li>
+							<a href="gong.html">游戏文化</a>
+							<i></i>
+							<ul class="ii">
+								<li><a href="gong.html?type=companyIdea">游戏概念</a></li>
+								<li><a href="gong.html?type=companyCulture">游戏体感</a></li>
+								<li><a href="gong.html?type=companyEnvironment">游戏氛围</a></li>
+							</ul>
+						</li>
+						<li>
+							<img src="img/" alt="" />
+							<a href="meu.html">活动中心</a>
+							<i></i>
+							<ul class="ii">
+								<li><a href="gong.html?type=talents">车手活动</a></li>
+								<li><a href="gong.html?type=team">活跃中心</a></li>
+								<li><a href="gong.html?type=joinUs">挑战赛</a></li>
+							</ul>
+						</li>
+						<li><a href="gong.html?type=telUs">联系我们</a></li>
+					</ul>
+			</div>
+		</div>
+	</body>
+</html>

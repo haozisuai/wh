@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--<link rel="stylesheet" type="text/css" href="css/common.css"/>-->
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<!--<script src="js/jquery-1.12.4.min.js"></script>-->
+		<script>
+			$(function(){
+				$(".music>li").each(function(k,v){
+					$(v).css("background-image","url(img/images/yinyue_"+ k +".png)").click(function(){
+						var aud = $("<audio autoplay='autoplay' src='music/sound0"+ k +".mp3'></audio>");
+						$("body").append(aud);
+						/*setTimeout(function(){
+							aud.remove()
+						},3000)*/
+						aud.siblings("audio").remove();
+					})
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div class="footer">
+			<div class="container">
+				<div class="section">
+					<ul class="music clearfix">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<p>备案信息</p>
+			</div>
+		</div>
+	</body>
+</html>

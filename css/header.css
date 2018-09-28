@@ -1,0 +1,52 @@
+/*header-css*/
+
+.header{
+	width: 100%;
+	height: 120px;
+	background: url(../images/header_bg.jpg) no-repeat center;
+	background-size: 100% 100%;
+}
+.header a{
+	color: white;
+}
+.header .i>li{
+	float: left;
+	position: relative;
+}
+.header .i>li:hover i{
+	background: url(../images/nav_xiajiantou_hover.png) no-repeat;
+}
+.header .i>li>a{
+	display: inline-block;
+	padding: 0 12px;
+	line-height: 120px;
+}
+.header .i i{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url(../images/nav_xiajiantou.png) no-repeat;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.header .ii{
+	position: absolute;
+	width: 110%;
+	background: #37274B;
+	text-align: center;
+	left: -10px;
+	top: 70%;
+	display: none;
+}
+.header .ii>li{
+	transition: padding-left 0.2s linear;
+}
+.header .ii>li:hover{
+	padding-left: 10px;
+	background: #3498db url(../images/nav_li_bg.png) no-repeat 95% center;
+}
+.header .ii>li>a{
+	display: block;
+	padding: 10px 20px;
+}

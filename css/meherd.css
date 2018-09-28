@@ -1,0 +1,66 @@
+.box{
+	width: 100%;
+	text-align: center;
+}
+.top{
+	width: 100%;
+	height: 100px;
+	background: url(../img/dh.png) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.top img{
+	position: absolute;
+	left: 50px;
+	top: 30px;
+}
+.box a{
+	color: white;
+}
+.box .i{
+	position: absolute;
+	top: -10px;
+	left: 700px;
+	z-index: 20;
+}
+.box .i>li{
+	float: left;
+	position: relative;
+}
+.box .i>li:hover i{
+	background: url(../img/images/nav_xiajiantou_hover.png) no-repeat;
+}
+.box .i>li>a{
+	display: inline-block;
+	padding: 0 12px;
+	line-height: 120px;
+}
+.box .i i{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url(../img/images/nav_xiajiantou.png) no-repeat;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.box .ii{
+	position: absolute;
+	width: 110%;
+	background: #37274B;
+	text-align: center;
+	left: -10px;
+	top: 70%;
+	display: none;
+}
+.box .ii>li{
+	transition: padding-left 0.2s linear;
+}
+.box .ii>li:hover{
+	padding-left: 10px;
+	background: #3498db url(../img/images/nav_li_bg.png) no-repeat 95% center;
+}
+.box .ii>li>a{
+	display: block;
+	padding: 10px 20px;
+}

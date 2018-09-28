@@ -1,0 +1,624 @@
+*{
+			padding: 0;
+			margin: 0;
+		}
+		body{
+	overflow: hidden;
+}
+		.box{
+			width: 100%;
+			position: relative;
+		}
+		.box .one{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		.one div{
+			width: 100%;
+			text-align: center;
+		}
+		.gon{
+			color: #fe6b12;
+		}
+		.one{
+			position: relative;
+			width: 100%;
+			height: 100%;
+		}
+		.one .xial{
+			position: absolute;
+			display: inline-block;
+			width: 75px;
+			height: 69px;
+			background: url(../img/ts.png) no-repeat;
+			top: 500px;
+			left: 50%;
+			animation: mymove 2s infinite;
+		}
+		@keyframes mymove {
+    0%{transform: translate(0, 0);}
+    50%{transform: translate(0, -50px);}
+    100%{transform: translate(0, 0);}
+ }
+		.top{
+			width: 100%;
+			height: 95px;
+			background: url(../img/dh.png) no-repeat;
+			background-size: 100% 100%;
+			position: fixed;
+			z-index: 100;
+		}
+		.top span{
+			position: absolute;
+			top: 20px;
+			left: 50px;
+			display: inline-block;
+			width: 145px;
+			height: 59px;
+			background: url(../img/logo.png) no-repeat;
+		}
+		.top i{
+			display: inline-block;
+		}
+		.top>ul li{
+			float: left;
+			position: relative;
+			margin-left: 120px;
+		}
+		.top>ul{
+			position: absolute;
+			top: 20px;
+			left: 200px;
+		}
+		.top .loog{
+			width: 150px;
+			height: 3px;
+			background: #3c3c3c;
+			position: absolute;
+			top: 42px;
+			left: 20px;
+		}
+		.top .log1{
+			position: absolute;
+		}
+		.top .log1,.top .log2{
+			cursor: pointer;
+		}
+		.top .log2{
+			position: absolute;
+			display: none;
+		}
+		.logo1 .log1{
+			width: 29px;
+			height: 49px;
+			background: url(../img/sp.png) no-repeat 0 -56px;
+		}
+		.logo1 .log2{
+			width: 29px;
+			height: 49px;
+			background: url(../img/sp.png) no-repeat 0 -56px;
+			/*display: none;*/
+		}
+		.logo1 .tis{
+			width: 60px;
+			font-size: 14px;
+			color: #fe6b12;
+			position: absolute;
+			top: 50px;
+			left: 0px;
+			
+		}
+		.logo2 .log1{
+			width: 39px;
+			height: 49px;
+			background: url(../img/sp.png) no-repeat -45px 0px;
+			left: 160px;
+		}
+		.logo2 .log2{
+			width: 39px;
+			height: 49px;
+			background: url(../img/sp.png) no-repeat -45px -56px;
+			left: 160px;
+		}
+		.logo2 .loog{
+			width: 120px;
+			left: 180px;
+		}
+		.logo2 .tis{
+			width: 60px;
+			font-size: 14px;
+			color: white;
+			position: absolute;
+			top: 50px;
+			left: 150px;
+		}
+		.logo3 .log1{
+			width: 39px;
+			height: 49px;
+			background: url(../img/sp.png) no-repeat -90px 0px;
+			left: 290px;
+		}
+		.logo3 .log2{
+			width: 39px;
+			height: 49px;
+			background: url(../img/sp.png) no-repeat -90px -56px;
+			left: 290px;
+		}
+		.logo3 .loog{
+			width: 122px;
+			left: 312px;
+		}
+		.logo3 .tis{
+			width: 60px;
+			font-size: 14px;
+			color: white;
+			position: absolute;
+			top: 50px;
+			left: 280px;
+		}
+		.logo4 .log1{
+			width: 39px;
+			height: 49px;
+			background: url(../img/sp.png) no-repeat -135px 0px;
+			left: 420px;
+		}
+		.logo4 .log2{
+			width: 39px;
+			height: 49px;
+			background: url(../img/sp.png) no-repeat -135px -56px;
+			left: 420px;
+		}
+		.logo4 .loog{
+			width: 140px;
+			left: 444px;
+		}
+		.logo4 .tis{
+			width: 60px;
+			font-size: 14px;
+			color: white;
+			position: absolute;
+			top: 50px;
+			left: 410px;
+		}
+		.logo5 .log1{
+			width: 52px;
+			height: 55px;
+			background: url(../img/sp.png) no-repeat -190px 0px;
+			left: 560px;
+		}
+		.logo5 .log2{
+			width: 52px;
+			height: 55px;
+			background: url(../img/sp.png) no-repeat -190px -56px;
+			left: 560px;
+		}
+		.logo5 .loog{
+			width: 130px;
+			left: 593px;
+		}
+		.logo5 .tis{
+			width: 60px;
+			font-size: 14px;
+			color: white;
+			position: absolute;
+			top: 50px;
+			left: 560px;
+		}
+		.logo6 .tis{
+			width: 60px;
+			font-size: 14px;
+			color: white;
+			position: absolute;
+			top: 50px;
+			left: 700px;
+		}
+		.logo6 .log1{
+			width: 49px;
+			height: 49px;
+			background: url(../img/sp.png) no-repeat -250px 0px;
+			left: 700px;
+		}
+		.logo6 .log2{
+			width: 49px;
+			height: 49px;
+			background: url(../img/sp.png) no-repeat -250px -56px;
+			left: 700px;
+		}
+		.two{
+			width: 100%;
+			position: relative;
+			overflow: hidden;
+			top: 200px;
+		}
+		.two .bleft{
+			display: inline-block;
+			width: 48px;
+			height: 60px;
+			background: url(../img/left.png) no-repeat ;
+			position: absolute;
+			z-index: 10;
+			top: 50%;
+			left: 0;
+			cursor: pointer;
+		}
+		.two .bright{
+			display: inline-block;
+			width: 48px;
+			height: 60px;
+			background: url(../img/right.png) no-repeat ;
+			position: absolute;
+			z-index: 10;
+			top: 50%;
+			margin-top: -15px;
+			right: 0;
+			cursor: pointer;
+		}
+		.two img{
+			width: 1920px;
+			height: 1080px;
+		}
+		.two li{
+			float: left;
+			position: relative;
+		}
+		.two ul{
+			position: relative;
+			width: 700%;
+		}
+		.two i{
+			font-size: 30px;
+			color: #fe6b12;
+			position: absolute;
+		}
+		.two h2{
+			position: absolute;
+			top: 90px;
+			left: 580px;
+			color: white;
+		}
+		.two .i1{
+			top: 350px;
+			left: 200px;
+		}
+		.two .i2{
+			top: 150px;
+			left: 170px;
+		}
+		.jiz .s3{
+			position: relative;
+		}
+		.jiz{
+			margin-bottom: 1px;
+			position: relative;
+			top: 200px;
+		}
+		.s3 .s{
+			position: absolute;
+		}
+		.s3 .s3-2{
+			z-index: 10;
+		}
+		.s3 li{
+			position: absolute;
+			z-index: 40;
+			font-size: 30px;
+			color: white;
+			left: 30px;
+			cursor: pointer;
+		}
+		.s3 .linl{
+			display: inline-block;
+			width: 2px;
+			height: 600px;
+			background: url(../img/line.png) no-repeat;
+			position: absolute;
+			z-index: 10;
+			top: 350px;
+			left: 82px;
+		}
+		.s3 .on1{
+			top: 300px;
+			left: 80px;
+		}
+		.s3 .on2{
+			top: 400px;
+			left: 80px;
+		}
+		.s3 .on3{
+			top: 500px;
+			left: 80px;
+		}
+		.s3 .on4{
+			top: 600px;
+			left: 80px;
+		}
+		.s3 .on5{
+			top: 700px;
+			left: 80px;
+		}
+		.s3 .lo1{
+			display: inline-block;
+			width: 32px;
+			height: 18px;
+			background: url(../img/tb1.png) no-repeat;
+			/*display: none;*/
+		}
+		.s3 .lo2{
+			display: inline-block;
+			width: 32px;
+			height: 24px;
+			background: url(../img/tb2.png) no-repeat;
+			display: none;
+		}
+		.s3>.on1 .lo2{
+			display: inline-block;
+			width: 32px;
+			height: 24px;
+			background: url(../img/tb2.png) no-repeat;
+		}
+		.s3>.on1 .lo1{
+			display: none;
+		}
+		.s3>.on1 i{
+			font-size: 40px;
+			color: #fe6b12;
+		}
+		/*游戏模式*/
+		.mos{
+			position: relative;
+			width: 100%;
+			height: 850px;
+			background: url(../img/s4.jpg) no-repeat;
+			top: 520px;
+		}
+		.nose{
+			position: relative;
+		}
+		.nose li{
+			position: absolute;
+			z-index: 50;
+			font-size: 30px;
+			color: white;
+			left: 60px;
+			cursor: pointer;
+		}
+		.nose .linl{
+			display: inline-block;
+			width: 2px;
+			height: 600px;
+			background: url(../img/line.png) no-repeat;
+			position: absolute;
+			z-index: 10;
+			top: 50px;
+			left: 62px;
+		}
+		.nose .wn1{
+			top: 200px;
+			left: 60px;
+		}
+		.nose .wn2{
+			top: 300px;
+			left: 60px;
+		}
+		.nose .wn3{
+			top: 400px;
+			left: 60px;
+		}
+		.nose .wn4{
+			top: 500px;
+			left: 60px;
+		}
+		.nose .wn5{
+			top: 600px;
+			left: 60px;
+		}
+		.nose .wo1{
+			display: inline-block;
+			width: 32px;
+			height: 18px;
+			background: url(../img/tb1.png) no-repeat;
+			/*display: none;*/
+		}
+		.nose .wo2{
+			display: inline-block;
+			width: 32px;
+			height: 24px;
+			background: url(../img/tb2.png) no-repeat;
+			display: none;
+		}
+		.nose>.wn1 .wo2{
+			display: inline-block;
+			width: 32px;
+			height: 24px;
+			background: url(../img/tb2.png) no-repeat;
+		}
+		.nose>.wn1 .wo1{
+			display: none;
+		}
+		.nose>.wn1 i{
+			font-size: 40px;
+			color: #fe6b12;
+		}
+		.nose .tup1{
+			position: relative;
+			top: 20px;
+			left: 110px;
+		}
+		.tup1 .bb{
+			position: absolute;
+			z-index: 10;
+			top: 100px;
+			left: 230px;
+		}
+		.tup1 .ba1{
+			z-index: 20;
+		}
+		/*跑车展示*/
+		.chel .s4{
+			position: relative;
+		}
+		.chel{
+			margin-bottom: 1px;
+			position: relative;
+			top: 750px;
+		}
+		.chel img{
+			width: 100%;
+		}
+		.s4 .s{
+			position: absolute;
+		}
+		.s4 .s4-1{
+			z-index: 10;
+		}
+		.s4 li{
+			position: absolute;
+			z-index: 10;
+			font-size: 30px;
+			color: white;
+			left: 30px;
+			cursor: pointer;
+		}
+		.s4 .linl{
+			display: inline-block;
+			width: 2px;
+			height: 600px;
+			background: url(../img/line.png) no-repeat;
+			position: absolute;
+			z-index: 10;
+			top: 200px;
+			left: 82px;
+		}
+		.s4 .an1{
+			top: 200px;
+			left: 80px;
+		}
+		.s4 .an2{
+			top: 300px;
+			left: 80px;
+		}
+		.s4 .an3{
+			top: 400px;
+			left: 80px;
+		}
+		.s4 .an4{
+			top: 500px;
+			left: 80px;
+		}
+		.s4 .an5{
+			top: 600px;
+			left: 80px;
+		}
+		.s4 .ao1{
+			display: inline-block;
+			width: 32px;
+			height: 18px;
+			background: url(../img/tb1.png) no-repeat;
+			/*display: none;*/
+		}
+		.s4 .ao2{
+			display: inline-block;
+			width: 32px;
+			height: 24px;
+			background: url(../img/tb2.png) no-repeat;
+			display: none;
+		}
+		.s4>.an1 .ao2{
+			display: inline-block;
+			width: 32px;
+			height: 24px;
+			background: url(../img/tb2.png) no-repeat;
+		}
+		.s4>.an1 .ao1{
+			display: none;
+		}
+		.s4>.an1 i{
+			font-size: 40px;
+			color: #fe6b12;
+		}
+		/*赛道展示*/
+		.saido .s5{
+			position: relative;
+		}
+		.saido{
+			margin-bottom: 1px;
+			position: relative;
+			top: 900px;
+		}
+		.saido img{
+			width: 100%;
+		}
+		.s5 .s{
+			position: absolute;
+		}
+		.s5 .s5-1{
+			z-index: 10;
+		}
+		.s5 li{
+			position: absolute;
+			z-index: 10;
+			font-size: 30px;
+			color: white;
+			left: 30px;
+			cursor: pointer;
+		}
+		.s5 .linl{
+			display: inline-block;
+			width: 2px;
+			height: 600px;
+			background: url(../img/line.png) no-repeat;
+			position: absolute;
+			z-index: 10;
+			top: 200px;
+			left: 82px;
+		}
+		.s5 .bn1{
+			top: 200px;
+			left: 80px;
+		}
+		.s5 .bn2{
+			top: 300px;
+			left: 80px;
+		}
+		.s5 .bn3{
+			top: 400px;
+			left: 80px;
+		}
+		.s5 .bn4{
+			top: 500px;
+			left: 80px;
+		}
+		.s5 .bn5{
+			top: 600px;
+			left: 80px;
+		}
+		.s5 .bo1{
+			display: inline-block;
+			width: 32px;
+			height: 18px;
+			background: url(../img/tb1.png) no-repeat;
+			/*display: none;*/
+		}
+		.s5 .bo2{
+			display: inline-block;
+			width: 32px;
+			height: 24px;
+			background: url(../img/tb2.png) no-repeat;
+			display: none;
+		}
+		.s5>.bn1 .bo2{
+			display: inline-block;
+			width: 32px;
+			height: 24px;
+			background: url(../img/tb2.png) no-repeat;
+		}
+		.s5>.bn1 .bo1{
+			display: none;
+		}
+		.s5>.bn1 i{
+			font-size: 40px;
+			color: #fe6b12;
+		}
